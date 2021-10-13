@@ -1,0 +1,14 @@
+.homepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.homepage__heading{
+    font-size: 5rem;
+    margin: 0;
+    color: #214151;
+}
+.singlepost__link{
+    cursor: pointer;
+}

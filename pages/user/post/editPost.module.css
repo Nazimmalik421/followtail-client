@@ -1,0 +1,26 @@
+.updatepost__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsfeed{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.newsfeed__heading{
+    margin: 2rem 0;
+    font-size: 5rem;
+    color: #214151;
+}
+
+.createpostform__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

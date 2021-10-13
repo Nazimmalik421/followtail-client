@@ -1,0 +1,79 @@
+.commentmodal__container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+}
+.commentmodal__overlay{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 10;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1rem);
+}
+.hr{
+    width: 80%;
+    margin: 1rem auto;
+}
+.commentmodal__btn{
+    font-size: 2rem;
+}
+.commentmodal__card{
+    padding: 1rem 3rem;
+    position: absolute;
+    max-width: 50rem;
+    width: 75vw;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+}
+.commentmodal__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.commentmodal__title{
+    font-size: 2rem;
+    margin: 0;
+}
+.commentmodal__body{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.commentmodal__comment{
+    padding: 1rem;
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.comment__submit{
+    background-color: #214151;
+    border: none;
+    height: 3rem;
+    width: 7.5rem;
+    border-radius: 5px;
+    color: #F8DC81;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    transition: all .25s;
+}
+.comment__submit:hover{
+    background-color: #F8DC81;
+    color: #214151;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .3);
+}

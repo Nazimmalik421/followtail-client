@@ -1,0 +1,28 @@
+.searchuser__input{
+    height: 3rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 1rem;
+    margin-right: 5px;
+}
+.searchuser__input::placeholder{
+    color: #214151;
+    opacity: .5;
+}
+.searchuser__input:focus{
+    outline: none;
+    border: 1px solid #F8DC81;
+}
+.searchuser__btn{
+    height: 100%;
+    background-color: #F8DC81;
+    border: none;
+    color: #214151;
+    border-radius: 5px;
+    
+}
+.searchuser__btn:hover{
+    cursor: pointer;
+    background-color: #214151;
+    color: #F8DC81;
+}

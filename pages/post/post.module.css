@@ -1,0 +1,22 @@
+.post__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comments__heading{
+    margin: 0;
+    font-size: 5rem;
+    color: #214151;
+}
+
+.back__btn{
+    color: #214151;
+    font-size: 5rem;
+}

@@ -1,0 +1,86 @@
+.nav__container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #214151;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.logo__Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    color: #f8dc81;
+    font-weight: bold;
+}
+
+.nav__logo{
+    text-shadow: 0 0 1rem #f8dc81e6;
+}
+
+.nav__item{
+    display: flex;
+    list-style: none;
+    color: #f8dc81;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 2rem;
+    border: 1px solid #f8dc81;
+}
+
+.profile__name{
+    cursor: pointer;
+    margin-right: 1rem;
+    color: #f8dc81;
+}
+.dropdown{
+    position: relative;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    
+}
+
+.submenu{
+    position: absolute;
+    background-color: #214151;
+    transform: translateX(-30%);
+    border-radius: .5rem;
+    z-index: 10;
+      
+}
+.submenu ul{
+    margin: 0;
+    padding: 0rem;
+}
+.dropdown__items{
+    list-style: none;
+    margin: 1rem;
+    color: #f8dc81;
+}
+.dropdown__items:not(:last-child){
+    margin-top: 1rem;
+}
+
+.nav__item__dropdown{
+    
+    cursor: pointer;
+}
+.nav__item__dropdown:hover{
+    filter: brightness(1.4);
+    text-shadow: 0 0 1rem #f8dc81e6;
+}

@@ -1,0 +1,16 @@
+.post__image{
+    padding: 2rem;
+}
+
+.post_image__container{
+    height: 100%;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, .6);
+    transition: .5s all;
+}
+
+.post_image__container:hover{
+    transform: scale(1.01);
+}

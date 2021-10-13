@@ -1,0 +1,28 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #A2D0C1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.toast__font{
+  font-size: 1.6rem;
+}
+
+.active{
+  background-color: #EFF7E1;
+  color: #214151;
+  box-shadow: 0 0 2rem rgba(248, 220, 129, .5);
+}

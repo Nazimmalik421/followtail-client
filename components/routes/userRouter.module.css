@@ -1,0 +1,21 @@
+.dashboard__child_wrapper{
+    display: flex;
+    
+}
+.dashboard__container{
+    display: flex;    
+    flex-direction: column;
+
+}
+
+.spinner{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading__spinner{
+    font-size: 5rem;
+    color: #F8DC81;
+}
